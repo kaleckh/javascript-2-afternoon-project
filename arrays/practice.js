@@ -9,7 +9,7 @@
 ////////// PROBLEM 1 //////////
 
 // Do not edit the code below.
-var arr = [10,20,30];
+var arr = [10, 20, 30];
 // Do not edit the code above.
 
 /*
@@ -17,14 +17,19 @@ var arr = [10,20,30];
   Return the first item in the given array.
 */
 
-//Code Here
+function first(arr) {
+    return [0]
+}
+
+
+
 
 
 
 ////////// PROBLEM 2 //////////
 
 // Do not edit the code below.
-var arr = [40,50,60];
+var arr = [40, 50, 60];
 // Do not edit the code above.
 
 /*
@@ -32,8 +37,11 @@ var arr = [40,50,60];
   Return the last item in the given array.
 */
 
-//Code Here
 
+function last(arr) {
+
+    return [2]
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -47,7 +55,11 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
   Loop through the given array and alert every item in the array.
 */
 
-//Code Here
+function looper(family) {
+
+
+
+}
 
 
 
@@ -69,7 +81,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-var nums = [1,2,3,6,22,98,45,23,22,12];
+var nums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
 // Do not edit the code above.
 
 /*
@@ -79,8 +91,15 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 //Code Here
 
-
-
+function eventFinder(nums) {
+    let arr = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % 2 === 0) {
+            arr.push(array[i]);
+        }
+    }
+    return arr;
+}
 
 
 
@@ -97,7 +116,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
+var numbersArray = [1, 2, 34, 54, 55, 34, 32, 11, 19, 17, 54, 66, 13];
 // Do not edit the code above.
 
 /*
@@ -114,7 +133,7 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 
 // Do not edit the code below.
 var getRandomArbitrary = function() {
-  return Math.floor(Math.random() * 30);
+    return Math.floor(Math.random() * 30);
 };
 // Do not edit the code above.
 
@@ -182,7 +201,7 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
   Return a new array after adding ten to each item in numbers. 
   Your output should look like this -> [15, 19, 26, 29, 35, 44, 58]
 */
-  
+
 //Code Here
 
 
@@ -194,11 +213,11 @@ var num1 = Math.floor(Math.random() * 30);
 var num2 = Math.floor(Math.random() * 30);
 var arr1 = [];
 var arr2 = [];
-for(var i = 0; i < num1; i++){
-  arr1.push(i);
+for (var i = 0; i < num1; i++) {
+    arr1.push(i);
 }
-for(var i = 0; i < num2; i++){
-  arr2.push(i);
+for (var i = 0; i < num2; i++) {
+    arr2.push(i);
 }
 // Do not edit the code above.
 
@@ -208,8 +227,17 @@ for(var i = 0; i < num2; i++){
   Return the longer of the two arrays.
 */
 
-//Code Here
+function longer(arr1, arr2) {
 
+    if (arr1.length > arr2) {
+        return arr1
+
+    } else {
+        return arr2
+    }
+    console.log(longer(arr1, arr2))
+
+}
 
 
 /*

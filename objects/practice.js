@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+var human = {
+    name: kale,
+    age: '20'
+
+}
 
 ////////// PROBLEM 2 //////////
 
@@ -23,7 +27,14 @@
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+var favoriteThings = {
+    band: "blink 182",
+    food: "sushi",
+    person: "jesus",
+    book: "rich dad poor dad",
+    movie: "wind rivers",
+    holiday: "christmas"
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -69,12 +80,12 @@ Instead, console.log your whole backPack object and then check out the console.
 
 // Do not edit the code below.
 var user2 = {
-  name: 'Bryan',
-  age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'BryanSmith33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'bryansmith33'
+    name: 'Bryan',
+    age: 24,
+    pwHash: 'U+Ldlngx2BYQk',
+    email: 'BryanSmith33@gmail.com',
+    birthday: '05/02/1990',
+    username: 'bryansmith33'
 };
 // Do not edit the code above.
 
