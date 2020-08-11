@@ -14,10 +14,9 @@
   Then alert your name using dot notation.
 */
 
-var human = {
-    name: kale,
-    age: '20'
-
+var me = {
+    name: "kale",
+    age: 20
 }
 
 ////////// PROBLEM 2 //////////
@@ -28,7 +27,6 @@ var human = {
 */
 
 var favoriteThings = {
-    band: "blink 182",
     food: "sushi",
     person: "jesus",
     book: "rich dad poor dad",
@@ -41,16 +39,19 @@ var favoriteThings = {
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.brand = "Nike"
+favoriteThings.band = "Blink 182"
+favoriteThings.car = "Audi R8"
+
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
-
-////////// PROBLEM 3 //////////
+favoriteThings['food'] = 'Chicken Nuggets'
+favoriteThings['book'] = 'Harry Potter'
+    ////////// PROBLEM 3 //////////
 
 /*
   Create an empty Object called backPack.
@@ -60,7 +61,9 @@ var favoriteThings = {
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
 
-//Code here
+var backPack = {}
+var item = "firstPocket"
+backPack[item] = "chapstick"
 
 /*
   After you do the above, alert your entire backPack object.
@@ -89,13 +92,16 @@ var user2 = {
 };
 // Do not edit the code above.
 
+user2['email'] = 'bryan.smith@devmounta.in'
+user2['name'] = 'Bryan G. Smith'
+
 /*
   Let's say I, the user, decided to change my name and email address to the following:
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////

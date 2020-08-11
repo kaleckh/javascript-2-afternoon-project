@@ -18,7 +18,8 @@ var arr = [10, 20, 30];
 */
 
 function first(arr) {
-    return [0]
+    var firstFirst = arr[0]
+    return firstFirst
 }
 
 
@@ -39,8 +40,8 @@ var arr = [40, 50, 60];
 
 
 function last(arr) {
-
-    return [2]
+    const lastItem = arr[arr.length - 1]
+    return lastItem
 }
 
 
@@ -56,9 +57,10 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 */
 
 function looper(family) {
-
-
-
+    for (let index = 0; index < family.length; index++) {
+        const element = family[index];
+        alert(element)
+    }
 }
 
 
@@ -74,8 +76,14 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the letters array, alerting every item in the array.
 */
 
-//Code Here
+function reversedLooper(letters) {
+    for (let index = letters.length - 1; index >= 0; index--) {
+        const element = letters[index];
+        alert(element)
 
+    }
+
+}
 
 
 ////////// PROBLEM 5 //////////
@@ -91,11 +99,11 @@ var nums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
 
 //Code Here
 
-function eventFinder(nums) {
+function evenFinder(nums) {
     let arr = [];
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] % 2 === 0) {
-            arr.push(array[i]);
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] % 2 === 0) {
+            arr.push(nums[i]);
         }
     }
     return arr;
